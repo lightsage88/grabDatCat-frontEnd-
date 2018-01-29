@@ -1,0 +1,12 @@
+As a user I should be able to 
+-create an account holding my name, contact info, phonenumber, email
+-login
+-logout and log back into my account
+
+-take a myersbriggs personality test and have the personality result 
+stored in my account details
+
+-get paired up with a cat that is best for me based on its breed
+
+-I should be able to receive contact info for the donors of the cat to
+contact them, should I so choose.

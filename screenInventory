@@ -1,0 +1,91 @@
+IMPORTANT INFO
+http://cfa.org/Owners/FindingAKitten/BreedPersonalityChart.aspx
+WHEN LOGGED OUT
+LANDING PAGE
+	will have an about blurb: 
+
+		"Hi there, GRAB DAT CAT is all about helping you optimize adopting a member of the patron species of the interet:
+				CATS!
+					...Kitties, Tikuums, Tikkum Tats, Meowlers, Wugus, Furbabies...we have as many names for them as we shuold each own*
+
+					*this view represents that of the developer.
+
+		Grab Dat Cat will help you find the kind of cat you've dreamt of giving a home to for so long, but we have an extra twist...we want to help make sure the cat you adopt gets along with you too.
+
+		If you'll be so kind as to take <INSERT LINK>a quick Myerss-Brigg's personality test</INSERT LINK> you'll be able to add it to your profile and we'll provide you with a list of cat breeds, which may suit you best, which you'll then be able to seek with our search feature!" 
+	
+	Login Tab (will be right on the front page):
+		username: 
+		password:
+	Sign Up will be a button that takes you to a Registration page.
+
+**upon registering I want the new user to automatically be logged in
+
+
+REGISTRATION PAGE:
+	-we'll have a form with the following fields:
+		-First Name text input
+		-Last Name text input
+		-Gender dropdown
+		-Personality Type: Dropdown menu with p tag with a tag saying: 'haven't done this yet? go ahead and know yourself!"
+		-Cell Phone Number number input
+		-Email Address text/email input
+		-password
+		-matching password
+
+						(If registration is successful)
+							- display a quick 'PASSING PAGE'
+							that says 'welcome, hooman, logging you in!'
+							-perhaps with a picture of a cat saying the above as a comic book text bubble
+
+						(If registration has an error)
+							-a quick message will be displayed with simple
+							Redux Form messages
+
+WHEN LOGGED IN
+NAVBAR
+-HOME
+-ACCOUNT
+-Myers-Briggs Personality Test (link to an outside one)
+	https://www.16personalities.com/free-personality-test
+-Sign Out (takes the user back to the landing page and logged out)
+
+HOME page
+	will have greeting of "HI, USER" will use the person's real name, not the username.
+
+	There will be a portion of the screen that says "Let's go grab dat cat!"
+		There will be a form adjacent to this that has
+		NR-a dropdown list for cat breeds/with a default set to ANY
+		NR-a dropdown list for colors of cats with a default set to ANY
+		NR-a dropdown for gender with default set to F for female, since 	F comes before M in the alphabet
+		R-a field for your zipcode
+				NR--an adjacent dropdown for how many miles out you wish to seek, default set to ANY
+		SUBMIT-a SUBMIT/SEARCH button which, upon being clicked, has some kind of cat animation like in the SW search project
+
+					(IF SEARCH HAS RESULTS):
+					-a card will be displayed showing
+						-a picture of the cat
+						-the cat's name
+						-the cat's age
+						-the cat's breed
+						-the cat's gender
+						-the cat's location and distance in miles from the zipcode entered
+
+						**if there are multiple results, they will be rendered side by side in a row with a maximum of 4 in a row before starting a new line.
+
+					(IF SEARCH DOES NOT HAVE RESULTS):
+					-a sad cat image will appear along with the text:
+					"we could not grab dat cat!"
+
+CAT DOSSIER PAGE
+Clicking the name of the cat should take user to a CAT DOSSIER page
+-we'll use this page to display the above information about the cat
+picture, name, age, breed, gender, location & distance in miles,
+BUT we'll also have an email or a phone number for the user to contact
+in order to make arrangements for adoption.
+
+ACCOUNT PAGE
+Clicking on 
+
+
+
