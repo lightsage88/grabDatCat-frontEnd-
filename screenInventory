@@ -1,3 +1,8 @@
+Hey Ray, I have come up with a rough draft of how my app should look on mobile sites 
+https://balsamiq.cloud/ssaf/pwhdo
+
+Here is the text from my Screen Inventory/User Flows file that I have been writing up on Sublime:
+
 IMPORTANT INFO
 http://cfa.org/Owners/FindingAKitten/BreedPersonalityChart.aspx
 WHEN LOGGED OUT
@@ -70,12 +75,19 @@ HOME page
 						-the cat's breed
 						-the cat's gender
 						-the cat's location and distance in miles from the zipcode entered
-
+            -a button you can press to add the cat to the 'CAT KENNEL', 
+            a repository of cats you are considering adopting that you can keep track of.
+            
 						**if there are multiple results, they will be rendered side by side in a row with a maximum of 4 in a row before starting a new line.
 
 					(IF SEARCH DOES NOT HAVE RESULTS):
 					-a sad cat image will appear along with the text:
 					"we could not grab dat cat!"
+          
+ CAT KENNEL
+ -shows the cats you have selected from your search to 'keep an eye on'
+ -there is general information about each cat and a way to press on the picture to see more pics and read more detailed info about the cat.
+ in the CAT DOSSIER
 
 CAT DOSSIER PAGE
 Clicking the name of the cat should take user to a CAT DOSSIER page
@@ -85,7 +97,8 @@ BUT we'll also have an email or a phone number for the user to contact
 in order to make arrangements for adoption.
 
 ACCOUNT PAGE
-Clicking on 
+Clicking on edit buttons will allow you to change your profile picture and account information
+You will also get to see what cats you have added to your 'kennel'
 
 
 
